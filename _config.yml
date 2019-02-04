@@ -1,0 +1,33 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jekyller.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: ShuMing Peh's Resume
+name: ShuMing Peh
+email: shuming.peh@gmail.com
+email_full: mailto:shuming.peh@gmail.com?subject=Nice%20to%20meet%20you!
+github: shumingpeh
+linkedin: shuming-peh
+tel: +65 9899 0206
+tel_full: tel:+6598990206
+google_maps: 'https://www.google.com/maps/place/Singapore+670650/@1.386865,103.7610163,17z/data=!3m1!4b1!4m5!3m4!1s0x31da11975eb88669:0x8b5ca9aec98adaba!8m2!3d1.386865!4d103.763205'
+address:
+  street: Blk 650 Senja Link
+  postcode: 670650
+  country: Singapore
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
