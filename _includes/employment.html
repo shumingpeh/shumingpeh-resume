@@ -14,6 +14,20 @@
             <li>Productionized models</li>
             <li style="padding-left:40px">Deals recommendation for offline vertical:</li>
             <li style="padding-left:80px">Designed and built a learning to rank (LTR) model from gradient boosted trees</li>
+            <li style="padding-left:80px">MLflow is used as the model tracking and registry</li>
+            <li style="padding-left:80px">Batch prediction of a daily update</li>
+            <li style="padding-left:120px">Daily airflow job that predicts user cohort recommendation, and uploads results to Postgres</li>
+            <li style="padding-left:120px">FastAPI is dockerized and deployed onto (Kubernetes) EKS cluster</li>
+            <li style="padding-left:80px">AB tested against manual curation, with model beating manual convincingly</li>
+            <li style="padding-left:80px">Automated weekly retraining pipeline that decides if the retrain model will replace current production model by comparing evaluation metric (MRR) on same test dataset</li>
+            <li style="padding-left:40px">Merchant recommendation for online vertical:</li>
+            <li style="padding-left:80px">Designed and built a rNN deep learning model (GRU4REC) from scratch</li>
+            <li style="padding-left:80px">MLflow is used as the model tracking and registry</li>
+            <li style="padding-left:80px">Real-time prediction</li>
+            <li style="padding-left:120px">Model client service (FastAPI) is dockerized and deployed onto (Kubernetes) EKS cluster</li>
+            <li style="padding-left:120px">Model serving (BentoML) is dockerized and deployed onto (Kubernetes) EKS cluste</li>
+            <li style="padding-left:80px">AB tested against AWS personalize model, and new model managed to beat AWS comfortably</li>
+            <li style="padding-left:80px">Automated weekly retraining pipeline, that decides if the retrain model will replace current production model by comparing evaluation (MRR) metric</li>
             <li>Productionized model result</li>
             <li style="padding-left:40px">Deals recommendation for (SBGO) offline vertical: +~15% in CTR and +~20% in transactions</li>
             <li style="padding-left:40px">Merchant recommendation for (SBOC) online vertical: +~3% in CTR and +~4% in transactions</li>
